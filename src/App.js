@@ -5,10 +5,11 @@ import React, { Component } from 'react';
 // import ProductReviewForm from './components/ProductReviewForm';
 // import LoginForm  from './components/LoginForm';
 // import ColorPicker from './components/ColorPicker';
-import Counter from './components/Counter'; 
+// import Counter from './components/Counter'; 
 // import Clock from './components/Clock';
 // import SkipEffectOnFirstRender from './components/SkipEffectOnFirstRender';
 // import PokemonView from './views/PokemonView';
+import Friends from './components/Friends';
 
 
 // const colorPickerOptions = [
@@ -26,7 +27,7 @@ export default class App extends Component {
     return (
       <>
         {/* <ColorPicker options={colorPickerOptions} /> */}
-        <Counter />
+        {/* <Counter /> */}
         {/* <SignupForm /> */}
         {/* <GlobalStyle /> */}
         {/* <LoginForm /> */}
@@ -34,6 +35,7 @@ export default class App extends Component {
         {/* <Clock /> */}
         {/* <SkipEffectOnFirstRender /> */}
         {/* <PokemonView /> */}
+        <Friends/>
 
       </>
     );
